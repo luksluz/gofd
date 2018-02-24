@@ -1,0 +1,27 @@
+{
+  "name": "orgdownui",
+  "version": "1.0.0",
+  "description": "Gui for OrgDown App",
+  "productName": "OrgDown - UI",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "luksluz <lucas16pe@hotmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "quasar-cli": "^0.15.2"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
