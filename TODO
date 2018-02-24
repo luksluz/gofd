@@ -1,0 +1,39 @@
+PROJETO:
+    Nome:
+        - OrgDown
+
+    Objetivos:
+        - Observar arquivos baixados no diretorio especifico ou adicionado pelo usuario
+        - Informar ao usuario sempre que novo arquivo for adicionado ao local observado
+        - Dar ao usuario opção de categorizar o tipo do arquivo e adicionar observações
+        - [OPICIONAL] Remover arquivos marcados como importante para pasta "segura"
+        - [OPICIONAL] Possibilitar ao usuario marcar arquivo como importante ou removivel
+        - [OPICIONAL] Sincronizar downloads importantes para pasta do Dropbox/GDrive/OneDrive
+
+    Ferramentas:
+        - VueJs 2.x
+        - GoLang 1.9.3
+        - WebPack 2.x
+        ✘ Electron 1.8.x @cancelled(18-02-24 08:43)
+        - Quasar
+
+    Iniciar:
+        ☐ Iniciar e finalizar o projeto @started(18-02-17 08:00)
+        ☐ Organizar repositorio git no GitHub @started(18-02-17 08:00)
+        ☐ Periodo Alpha
+        ☐ Periodo Beta
+
+    Organização Geral:
+        ✘ Criar tipo de loja responsavel pela Interface do usuario que será compartilhada entre varios apps @cancelled(18-02-18 16:17)
+        ☐ Criar servidor [GoLang] para servir UI
+        ☐ Usar websocket ou ajax para acessar APIs de baixo nivel [GoLang]
+        ✘ Integrar webview [GoLang] para informar/auxiliar usuario necessecidade da 'loja' @cancelled(18-02-18 16:18)
+        ✘ [OPICIONAL] Criar webinstaller [GoLang] com webview para baixar 'loja' caso necessite ou apenas instalar o programa desejado @cancelled(18-02-18 16:18)
+
+    Organizar UI:
+        ☐ Projetar e desenhar layout das telas
+        ☐ Prototipar telas no pc
+        ☐ Criar notificação a partir de nova janela
+        
+
+        
